@@ -119,7 +119,7 @@ export default function AmbassadorPage() {
                   </div>
                   <h3 className="text-lg font-semibold">{step.title}</h3>
                   {step.body && (
-                    <p className="text-sm text-muted-foreground leading-relaxed">{step.body}</p>
+                    <p className="text-xl text-muted-foreground leading-relaxed">{step.body}</p>
                   )}
                   {step.controls && (
                     <div className="space-y-3 mt-2">
@@ -128,7 +128,7 @@ export default function AmbassadorPage() {
                           <div className="mt-0.5 w-7 h-7 rounded-md bg-primary/10 flex items-center justify-center shrink-0">
                             <ctrl.icon className="h-3.5 w-3.5 text-primary" />
                           </div>
-                          <p className="text-sm text-muted-foreground leading-relaxed">
+                          <p className="text-xl text-muted-foreground leading-relaxed">
                             <span className="font-semibold text-foreground">{ctrl.label}</span>
                             {" — "}{ctrl.detail}
                           </p>
@@ -139,7 +139,7 @@ export default function AmbassadorPage() {
                 </div>
               ))}
             </div>
-            <p className="mt-12 text-center text-sm text-muted-foreground max-w-xl mx-auto">
+            <p className="mt-12 text-center text-xl text-muted-foreground max-w-xl mx-auto">
               Every word that comes out of that call is authorized by you. Nothing goes out that
               you didn&apos;t greenlight.
             </p>
@@ -165,7 +165,7 @@ export default function AmbassadorPage() {
                     <CardTitle className="text-sm font-semibold leading-snug">{uc.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{uc.body}</p>
+                    <p className="text-xl text-muted-foreground leading-relaxed">{uc.body}</p>
                   </CardContent>
                 </Card>
               ))}
