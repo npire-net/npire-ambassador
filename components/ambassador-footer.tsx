@@ -3,6 +3,9 @@ import { Separator } from "@/components/ui/separator";
 import { APP_URL, SUPPORT_EMAIL } from "@/lib/site-config";
 
 const FOOTER_LINKS = [
+  { label: "Npire", href: "https://npire.net" },
+  { label: "Layers", href: "https://layers.npire.net" },
+  { label: "Benchmark", href: "https://benchmark.npire.net" },
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
 ];

@@ -17,7 +17,7 @@ function readDomain(): string {
 export const APP_DOMAIN = readDomain();
 export const APP_URL = `https://${APP_DOMAIN}`;
 export const AMBASSADOR_URL = `https://ambassador.${APP_DOMAIN}`;
-export const SUPPORT_EMAIL = `hello@${APP_DOMAIN}`;
+export const SUPPORT_EMAIL = `support@${APP_DOMAIN}`;
 
 const enc = encodeURIComponent;
 export const EARLY_ACCESS_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=${enc("Ambassador early access")}`;
