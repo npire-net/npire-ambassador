@@ -86,9 +86,9 @@ export default function AmbassadorPage() {
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6 leading-relaxed">
             Ambassador is an AI meeting proxy that joins your calls, listens in real time, and
-            speaks in a synthesized voice calibrated to sound like you — while you direct every
-            response from your phone. Approve a suggestion, type exactly what you want said, or
-            take over and speak yourself. The call moves. You stay in control.
+            surfaces suggested responses to your phone — while you direct every word. Approve a
+            suggestion, type exactly what you want said, or take over and speak yourself. The
+            call moves. You stay in control.
           </p>
           <p className="text-2xl font-medium text-muted-foreground/60 mb-10 italic">
             You&apos;re present. You&apos;re responsive. You&apos;re just not there.
